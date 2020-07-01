@@ -1,0 +1,14 @@
+
+server/LessonControllerServer/LessonControllerServer/bin/Debug/netcoreapp3.0/
+
+.vs/
+
+server/LessonControllerServer/LessonControllerServerTests/obj/Debug/netcoreapp3.0/
+
+server/LessonControllerServer/LessonControllerDb/bin/Debug/netcoreapp3.0/LessonControllerDb.runtimeconfig.dev.json
+
+server/LessonControllerServer/LessonControllerServer/obj/Debug/netcoreapp3.0/LessonControllerServer.csprojAssemblyReference.cache
+
+server/LessonControllerServer/LessonControllerServer/obj/Debug/netcoreapp3.0/LessonControllerServer.csproj.FileListAbsolute.txt
+
+*.cache

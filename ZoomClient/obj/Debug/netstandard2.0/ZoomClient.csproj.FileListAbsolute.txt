@@ -1,0 +1,8 @@
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.deps.json
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.dll
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.pdb
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.csprojAssemblyReference.cache
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.AssemblyInfoInputs.cache
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.AssemblyInfo.cs
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\AndcultureCode.ZoomClient.dll
+C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\AndcultureCode.ZoomClient.pdb
