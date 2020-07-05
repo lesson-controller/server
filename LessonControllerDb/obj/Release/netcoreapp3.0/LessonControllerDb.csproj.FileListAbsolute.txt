@@ -1,0 +1,11 @@
+C:\Свои приложения\LessonController\server\LessonControllerDb\bin\Release\netcoreapp3.0\LessonControllerDb.deps.json
+C:\Свои приложения\LessonController\server\LessonControllerDb\bin\Release\netcoreapp3.0\LessonControllerDb.runtimeconfig.json
+C:\Свои приложения\LessonController\server\LessonControllerDb\bin\Release\netcoreapp3.0\LessonControllerDb.runtimeconfig.dev.json
+C:\Свои приложения\LessonController\server\LessonControllerDb\bin\Release\netcoreapp3.0\LessonControllerDb.dll
+C:\Свои приложения\LessonController\server\LessonControllerDb\bin\Release\netcoreapp3.0\LessonControllerDb.pdb
+C:\Свои приложения\LessonController\server\LessonControllerDb\obj\Release\netcoreapp3.0\LessonControllerDb.csprojAssemblyReference.cache
+C:\Свои приложения\LessonController\server\LessonControllerDb\obj\Release\netcoreapp3.0\LessonControllerDb.AssemblyInfoInputs.cache
+C:\Свои приложения\LessonController\server\LessonControllerDb\obj\Release\netcoreapp3.0\LessonControllerDb.AssemblyInfo.cs
+C:\Свои приложения\LessonController\server\LessonControllerDb\obj\Release\netcoreapp3.0\LessonControllerDb.dll
+C:\Свои приложения\LessonController\server\LessonControllerDb\obj\Release\netcoreapp3.0\LessonControllerDb.pdb
+C:\Свои приложения\LessonController\server\LessonControllerDb\obj\Release\netcoreapp3.0\LessonControllerDb.genruntimeconfig.cache
