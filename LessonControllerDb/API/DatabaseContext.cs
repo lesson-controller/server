@@ -1,13 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using LessonControllerDb.Models;
 
 namespace LessonControllerDb.API
 {
     public class DatabaseContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DatabaseContext() { }
+        public DatabaseContext(DbContextOptions options)
+            : base(options)
         {
-            optionsBuilder.UseMySql($"server=109.195.85.22;port=3306;database=lesson-controller;UserId=root;Password=Lomal31032000");
+
         }
 
         public DbSet<Users> Users { get; set; }

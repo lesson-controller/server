@@ -8,7 +8,7 @@ namespace LessonControllerAPI.API.Interfaces
 {
     public interface IUniversity
     {
-        bool AddGroup(string name, string discription);
+        StudentGroups AddGroup(string name, string discription);
         bool AssingStudentStatus(int userId, int groupId);
         bool AssingTeacherStatus(int userId, int lessonId, int groupId);
         bool AddLessonToGroup(int lessonId, int groupId);
@@ -16,7 +16,6 @@ namespace LessonControllerAPI.API.Interfaces
         bool UpdateStudentAttendances(int sheduleId, int studentUserId, bool participate);
         bool AddStudentToGroup(int userId, int groupId);
         List<Users> GetUsersAvalilableToAddToGroup(int groupId);
-        List<Users> GetTeachersAvalilableToAddToGroup(int groupId);
         List<StudentGroups> GetAllStudentsGroups();
         List<Users> GetStudentsList(int groupId);
         GroupTeachersListsForLessons GetTeachersList(int groupId);

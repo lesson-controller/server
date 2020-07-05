@@ -21,7 +21,7 @@ namespace LessonControllerServer.Controllers
     [ApiController]
     public class ApiController : Controller
     {
-        private LessonControllerDatabase Db => new LessonControllerDatabase();
+        private LessonControllerDatabase Db => new LessonControllerDatabase(false);
         private Users DbUser => (User != null && User.Identity != null && !string.IsNullOrEmpty(User.Identity.Name)) ?
             Db.GetUserWithoutPassword(User.Identity.Name) : null;
         private bool IsAdmin => DbUser.Role == "admin";
@@ -125,7 +125,7 @@ namespace LessonControllerServer.Controllers
         {
             var answer = new ApiAnswer<bool>();
 
-            answer.Data = University.AddGroup(name, discription);
+            answer.Data = University.AddGroup(name, discription) != null;
 
             return new JsonResult(answer);
         }

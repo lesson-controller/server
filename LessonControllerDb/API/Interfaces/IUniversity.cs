@@ -7,30 +7,51 @@ namespace LessonControllerDb.API.Interfaces
 {
     public interface IUniversity
     {
-        bool AddGroup(string name, string discription);
-        bool AssingStudentStatus(int userId, int groupId);
-        bool AssingTeacherStatus(int userId, int lessonId, int groupId);
-        bool AddLessonToGroup(int lessonId, int groupId);
-        GroupShedules AddShedule(GroupShedules shedule);
-        bool UpdateStudentAttendances(int sheduleId, int studentUserId, bool participate);
+        Users CreateUser(Users data);
+        List<Users> GetUsers();
+        Lessons CreateLesson(Lessons data);
+        List<Lessons> GetLessons(int? groupId = null);
+        List<Users> GetAvailableTeachers(int lessonId);
+        List<GroupShedules> GetGlobalShedule();
+
+        #region Group
+        List<StudentGroups> GetAllStudentsGroups();
+        StudentGroups AddGroup(string name, string discription);
+        StudentGroups GetGroupData(string groupName);
+
+        #region Student
         bool AddStudentToGroup(int userId, int groupId);
         List<Users> GetUsersAvalilableToAddToGroup(int groupId);
-        List<Users> GetTeachersAvalilableToAddToGroup(int groupId);
-        List<StudentGroups> GetAllStudentsGroups();
         List<Users> GetStudentsList(int groupId);
-        List<TeachersGroupParticipations> GetTeachersGroupParticipations(int groupId);
-        List<Users> GetUsers();
-        StudentGroups GetGroupData(string groupName);
-        List<Lessons> GetLessons(int? groupId = null);
-        List<GroupLessons> GetGroupLessons(int groupId);
-        List<Users> GetAvailableTeachers(int lessonId);
+        #endregion
+
+        #region Teacher
         bool AddTeacherToGroup(int userId, int groupId, int lessonId);
+        List<TeachersGroupParticipations> GetTeachersGroupParticipations(int groupId);
+        #endregion
+
+        #region Lesson
+        bool AddLessonToGroup(int lessonId, int groupId);
+        List<GroupLessons> GetGroupLessons(int groupId);
+        #endregion
+
+        #region Shedule
+        GroupShedules AddShedule(GroupShedules shedule);
         List<GroupShedules> GetGroupShedule(int groupId);
+        bool UpdateSheduleInfo(GroupShedules shedule);
+        List<GroupShedules> GetSheduleForStudent(int userId);
+        #endregion
+
+        #region Attendance
+        bool UpdateStudentAttendances(int sheduleId, int studentUserId, bool participate);
         List<StudentAttendances> GetStudentsAttendance(int sheduleId);
         List<StudentAttendances> GetStudentAttendances(int userId);
         List<StudentAttendances> GetStudentsAttendances(int? groupId = null);
-        bool UpdateSheduleInfo(GroupShedules shedule);
-        List<GroupShedules> GetSheduleForStudent(int userId);
-        List<GroupShedules> GetGlobalShedule();
+        #endregion
+
+        #endregion
+
+        bool AssingStudentStatus(int userId, int groupId);
+        bool AssingTeacherStatus(int userId, int lessonId, int groupId);        
     }
 }

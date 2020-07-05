@@ -14,7 +14,7 @@ namespace LessonControllerAPI.Models
         {
         }
 
-        public bool AddGroup(string name, string discription)
+        public StudentGroups AddGroup(string name, string discription)
             => Db.AddGroup(name, discription);
 
         public bool AddLessonToGroup(int lessonId, int groupId)
@@ -294,9 +294,6 @@ namespace LessonControllerAPI.Models
 
         public List<Users> GetStudentsList(int groupId)
             => Db.GetStudentsList(groupId);
-
-        public List<Users> GetTeachersAvalilableToAddToGroup(int groupId)
-            => Db.GetTeachersAvalilableToAddToGroup(groupId);
 
         public GroupTeachersListsForLessons GetTeachersList(int groupId)
         {
