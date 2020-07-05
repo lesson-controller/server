@@ -16,6 +16,7 @@ namespace LessonControllerDb.API
         public DbSet<StudentsGroupParticipations> StudentsGroupParticipations { get; set; }
         public DbSet<TeachersGroupParticipations> TeachersGroupParticipations { get; set; }
         public DbSet<GroupShedules> GroupShedules { get; set; }
+        public DbSet<GroupLessons> GroupLessons { get; set; }
         public DbSet<StudentAttendances> StudentAttendances { get; set; }
     }
 }

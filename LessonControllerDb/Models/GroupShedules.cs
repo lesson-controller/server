@@ -12,5 +12,9 @@ namespace LessonControllerDb.Models
         public DateTime TimeStart { get; set; }
         public DateTime TimeEnd { get; set; }
         public bool Canceled { get; set; }
+        public string Textbook { get; set; }
+        public string TextbookLink { get; set; }
+        public string Topic { get; set; }
+        public string Homework { get; set; }
     }
 }

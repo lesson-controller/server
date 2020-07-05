@@ -7,6 +7,6 @@ namespace LessonControllerDb.API.Interfaces
 {
     public interface IStudent : IStudentAttendances
     {
-
+        List<StudentGroups> GetGroupsOfWhich(int userId);
     }
 }

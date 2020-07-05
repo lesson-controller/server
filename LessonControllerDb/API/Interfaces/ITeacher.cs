@@ -15,5 +15,6 @@ namespace LessonControllerDb.API.Interfaces
         //List<int> GetListOfGroupsRunning(int? lessonId);
 
         bool GroupControllCheck(int teacherUserId, int groupId, int lessonId);
+        List<StudentGroups> GetGroupsRunning(int teacherUserId);
     }
 }
