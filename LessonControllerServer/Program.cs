@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -16,11 +18,21 @@ namespace LessonControllerServer
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+        public static IWebHostBuilder CreateHostBuilder(string[] args) =>
+             WebHost.CreateDefaultBuilder(args)
+                .UseKestrel(options =>
                 {
-                    webBuilder.UseStartup<Startup>();
-                });
+                    options.Listen(IPAddress.Any, 5006,
+                        listenOptions =>
+                        {
+                        });
+
+                    options.Listen(IPAddress.IPv6Loopback, 5006,
+                        listenOptions =>
+                        {
+                        });
+
+                })
+               .UseStartup<Startup>();
     }
 }

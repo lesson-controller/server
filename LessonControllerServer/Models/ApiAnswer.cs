@@ -10,6 +10,6 @@ namespace LessonControllerServer.Models
         public T Data { get; set; }
         public string Error { get; set; }
         public bool Success => string.IsNullOrEmpty(Error) &&
-            (Data.GetType() == typeof(bool) && Data.ToString() == "True");
+            (Data.GetType() != typeof(bool) || Data.ToString() == "True");
     }
 }
