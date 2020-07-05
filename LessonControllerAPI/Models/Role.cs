@@ -10,6 +10,7 @@ namespace LessonControllerAPI.Models
     {
         protected Users User { get; set; }
         protected Database Db { get; set; }
+        protected bool IsAdmin => User.Role == "admin";
 
         public Role(Users User, Database Db)
         {

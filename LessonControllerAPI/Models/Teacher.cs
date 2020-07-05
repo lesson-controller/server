@@ -12,6 +12,9 @@ namespace LessonControllerAPI.Models
         {
         }
 
+        public List<StudentGroups> GetGroupsRunning()
+            => Db.GetGroupsRunning(User.Id);
+
         public bool UpdateSheduleInfo(GroupShedules shedule)
         {
             if (!Db.GroupControllCheck(User.Id, shedule.GroupId, shedule.LessonId))

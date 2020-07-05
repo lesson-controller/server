@@ -8,5 +8,6 @@ namespace LessonControllerAPI.API.Interfaces
     public interface ITeacher
     {
         bool UpdateSheduleInfo(GroupShedules shedule);
+        List<StudentGroups> GetGroupsRunning();
     }
 }

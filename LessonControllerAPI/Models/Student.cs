@@ -11,5 +11,8 @@ namespace LessonControllerAPI.Models
         public Student(Users User, LessonControllerDb.API.Interfaces.IStudent StudentDb) : base(User, StudentDb)
         {
         }
+
+        public List<StudentGroups> GetGroupsOfWhich()
+            => Db.GetGroupsOfWhich(User.Id);
     }
 }
