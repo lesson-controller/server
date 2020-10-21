@@ -89,13 +89,15 @@ namespace LessonControllerServerTests
         {
             var name = "test";
             var group = Db.AddGroup(name, "disc");
-            var user = Db.CreateUser(new LessonControllerDb.Models.Users() { Login = name, Password = name, FirstName = name, LastName = name, Role = null });
+            var user = Db.CreateUser(new LessonControllerDb.Models.Users() 
+                { Login = name, Password = name, FirstName = name, LastName = name, Role = null });
             var lesson = Db.CreateLesson(new LessonControllerDb.Models.Lessons() { Name = name });
 
             Db.AddTeacherToGroup(user.Id, group.Id, lesson.Id);
             var teachers = Db.GetTeachersGroupParticipations(group.Id);
 
-            Assert.AreEqual(true, teachers.FirstOrDefault(x => x.UserId == user.Id && x.GroupId == group.Id && x.LessonId == lesson.Id) != null);
+            Assert.AreEqual(true, 
+                teachers.FirstOrDefault(x => x.UserId == user.Id && x.GroupId == group.Id && x.LessonId == lesson.Id) != null);
         }
 
         [TestMethod]

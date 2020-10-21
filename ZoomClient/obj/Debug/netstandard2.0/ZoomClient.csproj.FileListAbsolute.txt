@@ -1,16 +1,24 @@
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.deps.json
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.dll
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.pdb
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.csprojAssemblyReference.cache
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.AssemblyInfoInputs.cache
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.AssemblyInfo.cs
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\AndcultureCode.ZoomClient.dll
-C:\Свои приложения\LessonController\lesson-controller\ZoomClient\obj\Debug\netstandard2.0\AndcultureCode.ZoomClient.pdb
-C:\Свои приложения\LessonController\server\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.deps.json
-C:\Свои приложения\LessonController\server\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.dll
-C:\Свои приложения\LessonController\server\ZoomClient\bin\Debug\netstandard2.0\AndcultureCode.ZoomClient.pdb
-C:\Свои приложения\LessonController\server\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.csprojAssemblyReference.cache
-C:\Свои приложения\LessonController\server\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.AssemblyInfoInputs.cache
-C:\Свои приложения\LessonController\server\ZoomClient\obj\Debug\netstandard2.0\ZoomClient.AssemblyInfo.cs
-C:\Свои приложения\LessonController\server\ZoomClient\obj\Debug\netstandard2.0\AndcultureCode.ZoomClient.dll
-C:\Свои приложения\LessonController\server\ZoomClient\obj\Debug\netstandard2.0\AndcultureCode.ZoomClient.pdb
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.deps.json
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.dll
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.pdb
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.csprojAssemblyReference.cache
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.AssemblyInfoInputs.cache
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.AssemblyInfo.cs
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/obj/Debug/netstandard2.0/AndcultureCode.ZoomClient.dll
+C:/Свои приложения/LessonController/lesson-controller/ZoomClient/obj/Debug/netstandard2.0/AndcultureCode.ZoomClient.pdb
+C:/Свои приложения/LessonController/server/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.deps.json
+C:/Свои приложения/LessonController/server/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.dll
+C:/Свои приложения/LessonController/server/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.pdb
+C:/Свои приложения/LessonController/server/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.csprojAssemblyReference.cache
+C:/Свои приложения/LessonController/server/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.AssemblyInfoInputs.cache
+C:/Свои приложения/LessonController/server/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.AssemblyInfo.cs
+C:/Свои приложения/LessonController/server/ZoomClient/obj/Debug/netstandard2.0/AndcultureCode.ZoomClient.dll
+C:/Свои приложения/LessonController/server/ZoomClient/obj/Debug/netstandard2.0/AndcultureCode.ZoomClient.pdb
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.deps.json
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.dll
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/bin/Debug/netstandard2.0/AndcultureCode.ZoomClient.pdb
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.csprojAssemblyReference.cache
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.AssemblyInfoInputs.cache
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/obj/Debug/netstandard2.0/ZoomClient.AssemblyInfo.cs
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/obj/Debug/netstandard2.0/AndcultureCode.ZoomClient.dll
+/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/obj/Debug/netstandard2.0/AndcultureCode.ZoomClient.pdb

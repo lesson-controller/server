@@ -2765,7 +2765,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -3027,7 +3027,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -5888,37 +5888,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kvest\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/sashachernigin/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Свои приложения\\LessonController\\server\\LessonControllerAPI\\LessonControllerAPI.csproj",
+      "projectUniqueName": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/LessonControllerAPI/LessonControllerAPI.csproj",
       "projectName": "LessonControllerAPI",
-      "projectPath": "C:\\Свои приложения\\LessonController\\server\\LessonControllerAPI\\LessonControllerAPI.csproj",
-      "packagesPath": "C:\\Users\\kvest\\.nuget\\packages\\",
-      "outputPath": "C:\\Свои приложения\\LessonController\\server\\LessonControllerAPI\\obj\\",
+      "projectPath": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/LessonControllerAPI/LessonControllerAPI.csproj",
+      "packagesPath": "/Users/sashachernigin/.nuget/packages/",
+      "outputPath": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/LessonControllerAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kvest\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sashachernigin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Свои приложения\\LessonController\\server\\LessonControllerDb\\LessonControllerDb.csproj": {
-              "projectPath": "C:\\Свои приложения\\LessonController\\server\\LessonControllerDb\\LessonControllerDb.csproj"
+            "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/LessonControllerDb/LessonControllerDb.csproj": {
+              "projectPath": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/LessonControllerDb/LessonControllerDb.csproj"
             }
           }
         }
@@ -5940,19 +5938,7 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.0.1, 3.0.1]"
-          }
-        ],
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

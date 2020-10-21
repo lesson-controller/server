@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.21",
+  "restore": {
+    "projectUniqueName": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/ZoomClient.csproj",
+    "projectName": "AndcultureCode.Zoom.NetCore.Api",
+    "projectPath": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/ZoomClient.csproj",
+    "outputPath": "/Users/sashachernigin/Documents/GitHub/lesson-controller/server/ZoomClient/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.2, )"
+        },
+        "RestSharp": {
+          "target": "Package",
+          "version": "[106.6.10, )"
+        },
+        "jose-jwt": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
